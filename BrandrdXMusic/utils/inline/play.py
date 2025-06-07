@@ -74,14 +74,7 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
                 text="👻 𝐁ᴏᴛ ꭙ 𝐋ɪꜱᴛ 👻", url=f"https://t.me/KING_BOT_UPDATE"
             ),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],        [
-            InlineKeyboardButton(
-                text="📥 ᴠɪᴅᴇᴏ", callback_data=f"downloadvideo {vidid}"
-            ),
-            InlineKeyboardButton(
-                text="📥 ᴀᴜᴅɪᴏ", callback_data=f"downloadaudio {vidid}"
-            ),
-        ],
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],  
     ]
     return buttons
 
@@ -103,14 +96,7 @@ def stream_markup(_, videoid, chat_id):
                 text="👻𝐁ᴏᴛ ꭙ 𝐋ɪꜱᴛ👻", url=f"https://t.me/AboutBotMaker"
             ),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],        [
-            InlineKeyboardButton(
-                text="📥 ᴠɪᴅᴇᴏ", callback_data=f"downloadvideo {vidid}"
-            ),
-            InlineKeyboardButton(
-                text="📥 ᴀᴜᴅɪᴏ", callback_data=f"downloadaudio {vidid}"
-            ),
-        ],
+        
     ]
     return buttons
 
